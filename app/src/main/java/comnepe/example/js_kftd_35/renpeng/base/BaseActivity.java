@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.View;
+import android.view.Window;
 
 /**
  * Created by renpeng on 2016/8/1.
@@ -18,6 +19,7 @@ public abstract class BaseActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         int layoutId = getLayoutId();
         View contentView = null;
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
         if(layoutId != NO_LAYOUT){
             contentView = getLayoutInflater().inflate(layoutId,null);
             setContentView(contentView);
@@ -31,4 +33,8 @@ public abstract class BaseActivity extends FragmentActivity {
     protected abstract int getLayoutId();
 
     protected abstract void init();
+
+    protected <T extends View> T getViewById(int id){
+        return (T)findViewById(id);
+    }
 }
