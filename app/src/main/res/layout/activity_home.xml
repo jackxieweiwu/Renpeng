@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-    <comnepe.example.js_kftd_35.renpeng.rp.home.view.DragGridView
+    <comnepe.example.js_kftd_35.renpeng.rp.home.view.MyDragGridView
         android:id="@+id/dragGridView"
         android:listSelector="@android:color/transparent"
         android:layout_width="match_parent"
@@ -13,6 +13,6 @@
         android:stretchMode="columnWidth"
         android:gravity="center"
         android:numColumns="3" >
-        ></comnepe.example.js_kftd_35.renpeng.rp.home.view.DragGridView>
+        ></comnepe.example.js_kftd_35.renpeng.rp.home.view.MyDragGridView>
 
 </LinearLayout>

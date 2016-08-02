@@ -457,7 +457,6 @@ public class DragGridView extends GridView{
                     return true;
                 }
             } );
-
         }
     }
 
