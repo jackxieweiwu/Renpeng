@@ -1,4 +1,4 @@
-package comnepe.example.js_kftd_35.renpeng.rp.home;
+package comnepe.example.js_kftd_35.renpeng.rp.home.view;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,7 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 
 import comnepe.example.js_kftd_35.renpeng.R;
-import comnepe.example.js_kftd_35.renpeng.rp.home.view.DragGridBaseAdapter;
 
 /**
  * Created by renpeng on 2016/8/1.

@@ -12,6 +12,7 @@ import java.util.List;
 
 import comnepe.example.js_kftd_35.renpeng.R;
 import comnepe.example.js_kftd_35.renpeng.base.BaseActivity;
+import comnepe.example.js_kftd_35.renpeng.rp.home.view.DragAdapter;
 import comnepe.example.js_kftd_35.renpeng.rp.home.view.DragGridView;
 
 /**
