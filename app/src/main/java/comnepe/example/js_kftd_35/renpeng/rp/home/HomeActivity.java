@@ -34,7 +34,7 @@ public class HomeActivity extends BaseActivity {
     @Override
     protected void init() {
         DragGridView mDragGridView = (DragGridView) findViewById(R.id.dragGridView);
-        for (int i = 0; i < 15; i++) {
+        for (int i = 0; i < 45; i++) {
             HashMap<String, Object> itemHashMap = new HashMap<String, Object>();
             itemHashMap.put("item_image",R.mipmap.com_tencent_open_notice_msg_icon_big);
             itemHashMap.put("item_text", "拖拽 " + Integer.toString(i));
